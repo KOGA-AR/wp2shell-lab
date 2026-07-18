@@ -1,6 +1,6 @@
 # wp-lab — Lab local de WordPress vulnerable (wp2shell-poc)
 
-Lab local aislado para reproducir el PoC [wp2shell-poc](https://github.com/Icex0/wp2shell-poc):
+Lab local aislado para reproducir el PoC [wp2shell-poc](https://github.com/KOGA-AR/wp2shell-poc):
 SQL injection sin autenticación en el endpoint REST batch de WordPress (`/wp-json/batch/v1`),
 causada por confusión de rutas entre un POST anidado a `/wp/v2/posts` y un GET interno a
 `/wp/v2/users` (param `author_exclude` sin sanitizar). Afecta WordPress **6.9.0–6.9.4** y
