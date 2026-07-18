@@ -1,0 +1,12 @@
+# venvs / caches del PoC clonado (si lo clonás como subcarpeta en vez de al lado)
+.venv/
+__pycache__/
+*.pyc
+
+# hashes extraídos y wordlists de un solo uso durante las pruebas
+hash*.txt
+/tmp/
+
+# datos de Docker (los volúmenes ya viven fuera del repo, esto es por si acaso)
+*.sql
+*.dump
